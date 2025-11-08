@@ -1,0 +1,100 @@
+.miss-inside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.miss-center h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -1%;
+  max-width: 680px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.miss-center p {
+  color: rgba(74, 85, 108, 0.8);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 540px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+.miss-center button {
+  box-sizing: border-box;
+  border: 1px solid rgba(32, 173, 150, 1);
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  background: rgba(32, 173, 150, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.miss-left img {
+  max-width: 200px;
+  width: 100%;
+}
+.miss-right img {
+  max-width: 200px;
+  width: 100%;
+}
+.miss-center h2 span {
+  color: #29b09a;
+}
+.Miss-star {
+  color: #fec84b;
+}
+.miss-center_box p {
+  height: 0px;
+}
+
+.miss-star-box {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1200px) {
+  .miss-center h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .miss-center p {
+    font-size: 12px;
+  }
+  .miss-inside {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;*/
+    gap: 0;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .none {
+    display: none;
+  }
+  .miss-center {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

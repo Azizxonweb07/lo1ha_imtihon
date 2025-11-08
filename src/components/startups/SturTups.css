@@ -1,0 +1,41 @@
+.SturTups {
+  margin-top: 96px;
+  text-align: center;
+}
+.sturtups-top p {
+  color: rgba(102, 112, 133, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.sturtups-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 96px;
+  flex-wrap: wrap;
+}
+.sturtups-bottom img {
+  border: 2px solid transparent;
+}
+
+.sturtups-bottom img:hover {
+  border: 2px solid rgb(107, 103, 103);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .sturtups-bottom img {
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sturtups-bottom img {
+    padding: 20px 0;
+  }
+}

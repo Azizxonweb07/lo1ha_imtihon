@@ -1,0 +1,86 @@
+.Hear {
+  background: rgba(250, 248, 246, 1);
+  min-height: 879px;
+  padding: 120px 0;
+}
+.hear-top h2 {
+  color: rgba(51, 52, 97, 1);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -1%;
+  max-width: 540px;
+  width: 100%;
+  margin-bottom: 37px;
+}
+.hear-bottom_card {
+  box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+  background: rgba(255, 255, 255, 1);
+  max-width: 400px;
+  width: 100%;
+  padding: 48px;
+  transition: all 0.3s;
+}
+.hear-bottom_card p span {
+  color: black;
+  font-weight: 540;
+}
+.hear-bottom_card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.hear-bottom_card:hover h3 {
+  color: rgba(32, 173, 150, 1);
+}
+.hear-bottom_card h3 {
+  color: rgba(219, 222, 230, 1);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -3%;
+  margin-bottom: 16px;
+}
+.hear-bottom_card p {
+  color: rgba(74, 85, 108, 1);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -3%;
+  margin-bottom: 15px;
+  max-width: 304px;
+  width: 100%;
+}
+.hear-bottom_card h4 {
+  color: rgba(51, 52, 97, 1);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -3%;
+  margin-bottom: 15px;
+  max-width: 70px;
+  width: 100%;
+}
+.hear-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1300px) {
+  .hear-bottom_card {
+    margin: 10px;
+  }
+  .hear-bottom_card {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hear-top h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .hear-bottom_card {
+    margin-bottom: 30px;
+  }
+}

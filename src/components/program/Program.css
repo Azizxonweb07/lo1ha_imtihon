@@ -1,0 +1,89 @@
+.Program {
+  margin: 120px 0;
+  padding: 49px 0;
+  background: rgba(250, 248, 246, 1);
+  min-height: 860px;
+}
+.program-top {
+  text-align: center;
+}
+.program-top p {
+  color: rgba(74, 85, 108, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+.program-top h2 {
+  color: rgba(51, 52, 97, 1);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: -2%;
+  text-align: center;
+  max-width: 488px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.program-inline-box {
+  display: flex;
+  align-self: start;
+  max-width: 400px;
+  gap: 15px;
+  width: 100%;
+}
+.program-inline-box img {
+  margin-bottom: 17px;
+  height: 20px;
+  width: 20px;
+}
+.program-inline-box p {
+  max-width: 350px;
+  width: 100%;
+  color: rgba(102, 112, 133, 1);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.program-bottom_left_card {
+  max-width: 446px;
+  width: 100%;
+  min-height: 540px;
+  padding: 57px;
+}
+.program-bottom_left_card h3 {
+  text-align: center;
+  color: rgba(51, 52, 97, 1);
+  font-size: 22px;
+  font-weight: 550;
+  line-height: 120%;
+  letter-spacing: -1%;
+  margin-bottom: 74px;
+}
+.program-bottom_left_card h3 span {
+  border-bottom: 2px solid black;
+}
+.program-inline-box {
+  margin-bottom: 30px;
+}
+.program-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.right-card {
+  background: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 500px) {
+  .program-top h2 {
+    font-size: 28px;
+  }
+}
