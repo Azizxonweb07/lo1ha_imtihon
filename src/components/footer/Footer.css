@@ -102,16 +102,19 @@
 }
 .footer-bottom_logos {
   background-color: #ccc;
-  width: 44px;
-  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   padding: 10px;
   border: 2px solid transparent;
 }
 .footer-bottom_logos:hover {
   background-color: #ccc;
-  width: 44px;
-  height: 44px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   padding: 10px;
   border: 2px solid blue;
