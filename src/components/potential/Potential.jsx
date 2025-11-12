@@ -26,7 +26,14 @@ const Potential = () => {
           </Link>
         </div>
         <div className="potential-right">
-          <img src={potentialImg} alt="potential img" />
+          <div className="potential-box">
+            <img
+              className="potential-right-img"
+              src={potentialImg}
+              alt="potential img"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
     </div>

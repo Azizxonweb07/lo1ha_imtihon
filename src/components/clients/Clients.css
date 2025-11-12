@@ -64,7 +64,7 @@
 .clients-bottom {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 60px;
   flex-wrap: wrap;
 }
 
@@ -94,6 +94,9 @@
   }
   .clients-bottom_card p {
     font-size: 16px;
+  }
+  .clients-bottom {
+    gap: 30px;
   }
 }
 

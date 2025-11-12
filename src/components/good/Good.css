@@ -96,6 +96,43 @@
   line-height: 24px;
   letter-spacing: 0%;
 }
+button {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover {
+  background-color: #37806b;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.accordion-content.open {
+  max-height: 200px; /* kerakli balandlikni taxminan beramiz */
+  opacity: 1;
+}
+
+.good-bottom_card {
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  padding: 20px 0;
+}
+
+.good-card-bottom_inline-box p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.good-bottom {
+  min-height: 500px;
+}
+
 @media screen and (max-width: 500px) {
   .good-bottom_card {
     display: flex;

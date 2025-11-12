@@ -20,7 +20,7 @@ const Aboutme = () => {
           <button className="aboutme-btn">Get your free guide now</button>
         </div>
         <div className="discover-right">
-          <img src={aboutImg} alt="discover img" />
+          <img src={aboutImg} alt="discover img" loading="lazy" />
         </div>
       </div>
     </div>

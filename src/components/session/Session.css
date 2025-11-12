@@ -52,6 +52,13 @@
   width: 100%;
   min-height: 432px;
 }
+button {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover {
+  background-color: #37806b;
+}
 
 @media screen and (max-width: 1200px) {
   .session-right img {
@@ -66,5 +73,9 @@
   }
   .session-left h2 {
     line-height: 40px;
+  }
+  .session-right img {
+    margin-top: 0;
+    object-fit: contain;
   }
 }

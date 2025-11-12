@@ -45,9 +45,7 @@ const Life = () => {
             </div>
           </div>
         </div>
-        <div className="life-bottom">
-          <img src={videoImg} alt="" />
-        </div>
+        <img src={videoImg} alt="life img" loading="lazy" className="life-img"/>
       </div>
     </div>
   );

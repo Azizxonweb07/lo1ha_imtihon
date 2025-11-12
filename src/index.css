@@ -16,4 +16,12 @@
 }
 button {
   cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover {
+  background-color: #37806b;
+}
+
+html {
+  scroll-behavior: smooth;
 }

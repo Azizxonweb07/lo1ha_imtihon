@@ -14,17 +14,22 @@
 
 .sturtups-bottom {
   display: flex;
-  justify-content: space-between;
+  gap: 80px;
+  justify-content: center;
   align-items: center;
   margin-bottom: 96px;
   flex-wrap: wrap;
 }
 .sturtups-bottom img {
   border: 2px solid transparent;
+  padding: 25px;
+  min-height: 20px;
+  cursor: pointer;
 }
 
 .sturtups-bottom img:hover {
   border: 2px solid rgb(107, 103, 103);
+  padding: 25px;
   cursor: pointer;
 }
 
@@ -37,5 +42,10 @@
 @media screen and (max-width: 500px) {
   .sturtups-bottom img {
     padding: 20px 0;
+  }
+  .sturtups-bottom img {
+    border: 2px solid transparent;
+    padding: 25px;
+    cursor: pointer;
   }
 }

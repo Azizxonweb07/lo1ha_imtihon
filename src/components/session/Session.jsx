@@ -11,7 +11,7 @@ const Session = () => {
           <button>Book now</button>
         </div>
         <div className="session-right">
-          <img src={sessinImg} alt="session img" />
+          <img src={sessinImg} alt="session img" loading="lazy" />
         </div>
       </div>
     </div>

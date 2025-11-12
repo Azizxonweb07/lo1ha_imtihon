@@ -24,7 +24,12 @@ const Self = () => {
             <button className="hero-btn">Claim your spot</button>
           </div>
           <div className="hero-right">
-            <img className="self-img" src={heroRightImg} alt="hero img" />
+            <img
+              className="self-img"
+              src={heroRightImg}
+              alt="hero img"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>

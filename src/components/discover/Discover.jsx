@@ -3,7 +3,7 @@ import discoverImg from "../../assets/discover-img.jpg";
 
 const Discover = () => {
   return (
-    <div className="Discover">
+    <div className="discover">
       <div className="discover-inside container">
         <div className="discover-left">
           <p className="dicosver-subtext">
@@ -20,7 +20,9 @@ const Discover = () => {
           </p>
         </div>
         <div className="discover-right">
-          <img src={discoverImg} alt="discover img" />
+          <div className="discover-img-box">
+            <img src={discoverImg} alt="discover img" loading="lazy" className="discover-img"/>
+          </div>
         </div>
       </div>
     </div>

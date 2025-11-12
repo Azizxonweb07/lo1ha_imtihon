@@ -49,8 +49,9 @@
 .artciles-bottom {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 60px;
   margin-top: 63px;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .articles-btn {
@@ -92,6 +93,9 @@
   }
 }
 @media screen and (max-width: 500px) {
+  .artciles-bottom {
+    gap: 30px;
+  }
   .articles-bottom_card {
     margin: 0 auto;
     margin-bottom: 25px;

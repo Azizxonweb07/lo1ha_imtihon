@@ -13,11 +13,11 @@ const SturTurps = () => {
           <p>From startups to the world’s largest companies</p>
         </div>
         <div className="sturtups-bottom">
-          <img src={sturTupImg_1} alt="sturtups img" />
-          <img src={sturTupImg_2} alt="sturtups img" />
-          <img src={sturTupImg_3} alt="sturtups img" />
-          <img src={sturTupImg_4} alt="sturtups img" />
-          <img src={sturTupImg_5} alt="sturtups img" />
+          <img src={sturTupImg_1} alt="sturtups img" loading="lazy" />
+          <img src={sturTupImg_2} alt="sturtups img" loading="lazy" />
+          <img src={sturTupImg_3} alt="sturtups img" loading="lazy" />
+          <img src={sturTupImg_4} alt="sturtups img" loading="lazy" />
+          <img src={sturTupImg_5} alt="sturtups img" loading="lazy" />
         </div>
       </div>
     </div>

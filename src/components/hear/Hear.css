@@ -83,4 +83,11 @@
   .hear-bottom_card {
     margin-bottom: 30px;
   }
+  .hear-bottom_card:nth-child(1) h3 {
+    color: rgba(32, 173, 150, 1);
+  }
+  .hear-bottom_card:hover {
+    cursor: pointer;
+    transform: scale(1);
+  }
 }

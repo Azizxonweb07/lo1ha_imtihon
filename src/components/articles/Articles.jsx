@@ -15,7 +15,7 @@ const Articles = () => {
         <div className="artciles-bottom">
           <div className="articles-bottom_card">
             <div className="articles-bottom_card-top">
-              <img src={articlesCardImg_1} alt="articles img" />
+              <img src={articlesCardImg_1} alt="articles img" loading="lazy" />
             </div>
             <div className="articles-bottom_card-bottom">
               <h3>Balancing your love and work life.</h3>
@@ -28,7 +28,7 @@ const Articles = () => {
           </div>
           <div className="articles-bottom_card">
             <div className="articles-bottom_card-top">
-              <img src={articlesCardImg_2} alt="articles img" />
+              <img src={articlesCardImg_2} alt="articles img" loading="lazy" />
             </div>
             <div className="articles-bottom_card-bottom">
               <h3>A short break from Social Media is important.</h3>
@@ -41,7 +41,7 @@ const Articles = () => {
           </div>
           <div className="articles-bottom_card">
             <div className="articles-bottom_card-top">
-              <img src={articlesCardImg_3} alt="articles img" />
+              <img src={articlesCardImg_3} alt="articles img" loading="lazy" />
             </div>
             <div className="articles-bottom_card-bottom">
               <h3>How to be 1% Better Every Day</h3>

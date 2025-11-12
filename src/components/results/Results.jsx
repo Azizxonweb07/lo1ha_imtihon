@@ -15,12 +15,20 @@ const Results = () => {
           <input type="text" placeholder="Name" /> <br />
           <input type="text" placeholder="Enter your email" />
           <p className="results-text">
-            We care about your data in our <span>privacy policy</span>
+            We care about your data in our
+            <a href="#footer" className="results-link">
+              <span>privacy policy</span>
+            </a>
           </p>
           <button>Get free guide</button>
         </div>
         <div className="results-right">
-          <img src={potentialImg} alt="" />
+          <img
+            className="results-img"
+            src={potentialImg}
+            alt="results img"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>
