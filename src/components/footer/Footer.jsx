@@ -30,14 +30,22 @@ const Footer = () => {
     window.scrollTo(0, 0);
     navigate("/freeGuide");
   }
+  function changeNavigateHedaer() {
+    navigate("/");
+    window.scrollTo(0, 0);
+  }
   return (
     <footer id="footer">
       <div className="Footer">
         <div className="footer-inside container">
           <div className="footer-top">
             <div className="footer-top_left">
-              <div className="header-logo-box ">
-                <img src={headerLogo} alt="header logo" />
+              <div className="header-logo-box">
+                <img
+                  onClick={changeNavigateHedaer}
+                  src={headerLogo}
+                  alt="header logo"
+                />
               </div>
               <p>
                 Design amazing digital experiences that create more happy in the

@@ -14,7 +14,7 @@
 
 .sturtups-bottom {
   display: flex;
-  gap: 80px;
+  gap: 60px;
   justify-content: center;
   align-items: center;
   margin-bottom: 96px;
@@ -24,12 +24,6 @@
   border: 2px solid transparent;
   padding: 25px;
   min-height: 20px;
-  cursor: pointer;
-}
-
-.sturtups-bottom img:hover {
-  border: 2px solid rgb(107, 103, 103);
-  padding: 25px;
   cursor: pointer;
 }
 

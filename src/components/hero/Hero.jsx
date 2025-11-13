@@ -22,7 +22,6 @@ const Hero = () => {
           </p>
           <button className="hero-btn">Get your free guide now</button>
         </div>
-
         <div className="hero-right">
           <div className="hero-img-box">
             <img

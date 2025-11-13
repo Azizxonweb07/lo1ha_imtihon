@@ -1,7 +1,9 @@
 import "./Life.css";
 import readyInlineImg_3 from "../../assets/ready-internal-img-3.png";
 import readyInlineImg_4 from "../../assets/ready-internal-img-4.png";
-import videoImg from "../../assets/videoPlayer.png";
+// import videoImg from "../../assets/videoPlayer.png";/
+import video from "../../video/video.mp4";
+
 const Life = () => {
   return (
     <div className="Life">
@@ -45,7 +47,15 @@ const Life = () => {
             </div>
           </div>
         </div>
-        <img src={videoImg} alt="life img" loading="lazy" className="life-img"/>
+        <iframe
+          className="life-video"
+          width="560"
+          height="315"
+          src={video}
+          title="React video demo"
+          // allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          // allowFullScreen
+        ></iframe>
       </div>
     </div>
   );

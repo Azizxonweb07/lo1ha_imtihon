@@ -10,9 +10,9 @@
 .hero-right {
   overflow: hidden;
 }
-.hero-right img {
+.self-img {
   height: 640px;
-  margin-right: 100px;
+  margin-right: 0;
   width: 100%;
   overflow: hidden;
 }
@@ -27,7 +27,7 @@
 }
 .hero-title {
   color: rgba(51, 52, 97, 1);
-  font-size: 72px;
+  font-size: 65px;
   font-weight: 800;
   line-height: 120%;
   letter-spacing: -1%;
@@ -35,6 +35,7 @@
   width: 100%;
   margin-bottom: 17px;
 }
+
 .hero-text {
   color: rgba(74, 85, 108, 1);
   font-size: 18px;
@@ -62,8 +63,8 @@
 .self-img {
   max-width: 462px;
   width: 100%;
-  min-height: 500px;
-  margin-top: 40px;
+  max-height: 580px;
+  margin-top: 30px;
 }
 @media screen and (max-width: 1300px) {
   .hero-right-box img {

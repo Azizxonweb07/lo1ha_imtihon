@@ -3,8 +3,13 @@
   min-height: 677px;
   padding: 20px 0;
 }
+
+.hero-left {
+  margin-top: 40px;
+}
 .hero-inside {
   display: flex;
+  align-self: start;
   justify-content: space-between;
   flex-wrap: wrap;
 }

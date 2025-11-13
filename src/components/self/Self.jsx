@@ -29,6 +29,7 @@ const Self = () => {
               src={heroRightImg}
               alt="hero img"
               loading="lazy"
+              
             />
           </div>
         </div>

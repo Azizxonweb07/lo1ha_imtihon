@@ -68,6 +68,10 @@
   min-height: 44px;
   padding: 10px 36px;
 }
+.notified-right_form {
+  display: flex;
+  gap: 20px;flex-wrap: wrap;
+}
 
 @media screen and (max-width: 1200px) {
   .notified-left p {

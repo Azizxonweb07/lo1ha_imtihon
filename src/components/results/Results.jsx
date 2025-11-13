@@ -12,15 +12,17 @@ const Results = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua minim
             veniam.
           </p>
-          <input type="text" placeholder="Name" /> <br />
-          <input type="text" placeholder="Enter your email" />
-          <p className="results-text">
-            We care about your data in our
-            <a href="#footer" className="results-link">
-              <span>privacy policy</span>
-            </a>
-          </p>
-          <button>Get free guide</button>
+          <form className="results-right_form">
+            <input type="text" placeholder="Name" required /> <br />
+            <input type="text" placeholder="Enter your email" required />
+            <p className="results-text">
+              We care about your data in our
+              <a href="#footer" className="results-link">
+                <span>privacy policy</span>
+              </a>
+            </p>
+            <button>Get free guide</button>
+          </form>
         </div>
         <div className="results-right">
           <img

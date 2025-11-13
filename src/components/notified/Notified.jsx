@@ -11,8 +11,10 @@ const Notified = () => {
           </p>
         </div>
         <div className="notified-right">
-          <input type="text" placeholder="Enter your email" />
-          <button>Subscribe</button>
+          <form className="notified-right_form">
+            <input type="text" placeholder="Enter your email" required />
+            <button>Subscribe</button>
+          </form>
         </div>
       </div>
     </div>
